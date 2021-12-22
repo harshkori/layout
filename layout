@@ -1,0 +1,9 @@
+<referenceContainer name="header-wrapper">
+            <container name="menucontainor" htmlTag="div" after="-" htmlClass="menucontainer">
+                <block class="VitalLiving\Mainmodule\Block\HeaderContainer" name="top.mneu" as="topmenu" template="VitalLiving_Mainmodule::menu.phtml"/>
+            </container>
+        
+        </referenceContainer>
+        <move element="top.search" destination="menucontainor" before="-"/>
+
+
